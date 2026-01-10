@@ -1,4 +1,4 @@
-#User & Group Permission Management
+#User & Group Permission Management Project
 
 This project demonstrates hands-on experience with Linux user and group management, directory permissions, umask configuration, SGID, and sticky bit behavior. The tasks were completed in a CCIA environment and reflect practical system administration. 
 
@@ -15,6 +15,20 @@ payroll
 admin
 
 ![image alt](https://github.com/adeline566/Linux-Networking-Labs-/blob/c2b76e65e31bc1246a81bfc10c4e307a8828892e/Picture%201.png)
+
+
+Step 2: Create User Accounts
+Three user accounts were created with specified home directories:
+
+Sophia – primary group: employee
+
+Olivia – primary group: payroll
+
+Emma – primary group: admin
+
+All users were assigned /bin/bash as their login shell and passwords were configured.
+
+![image alt](https://github.com/adeline566/Linux-Networking-Labs-/blob/83b4b26c40fc9d14396b674f5bdb12d8386eba05/Picture%202.png)
 
 
 
