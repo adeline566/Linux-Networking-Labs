@@ -1,4 +1,4 @@
-                        Group and Users Accounts LAB
+                                      Group and Users Accounts LAB
 
 This lab focuses on basic Linux user and group management. It covers creating user accounts, managing passwords, assigning groups, and modifying group ownership. The tasks were performed in a Linux virtual machine environment and reflect practical system administration skills.
 
