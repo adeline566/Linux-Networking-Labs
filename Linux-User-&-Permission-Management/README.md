@@ -99,3 +99,13 @@
 ### Step 3: Olivia Tries Again
 
 <img width="1084" height="611" alt="image" src="https://github.com/user-attachments/assets/0e019e93-9f92-49ad-bb00-1af1d8386556" />
+
+# Lessons Learned
+
+This lab helped me understand how Linux manages users, groups, and file permissions in a multi-user environment. I learned that creating users and groups is important for organizing access and controlling collaboration between different accounts.
+
+I also gained hands-on experience with file permissions using chmod, which showed how read, write, and execute permissions directly affect what users can do with files and directories. Setting up shared directories reinforced how group ownership is essential for controlled collaboration.
+
+The SGID permission helped me understand how files created inside a directory can automatically inherit the group ownership, making teamwork more consistent. In contrast, the Sticky Bit showed how shared directories can be protected so that only file owners can delete their files, even when others have write access.
+
+Finally, adjusting umask helped me see how default file permissions are determined when new files are created. Overall, this lab strengthened my understanding of Linux permission management and how it is used to improve both security and collaboration.
