@@ -54,3 +54,13 @@ Using while loop:
 <img width="940" height="610" alt="image" src="https://github.com/user-attachments/assets/1da2d6da-1f03-4491-8d1f-8bd80523a027" />
 
 <img width="940" height="610" alt="image" src="https://github.com/user-attachments/assets/96226d51-3083-4145-834a-efe1629b1004" />
+
+# Lessons Learned
+
+Completing this task strengthened my understanding of fundamental networking and basic scripting concepts.
+
+Through the IP addressing and subnetting exercises, I gained a clearer understanding of how subnet masks determine the number of available hosts within a network. Working with both /28 and /26 subnets helped reinforce how network, broadcast, first, and last usable IP addresses are derived using binary conversion. This improved my ability to manually verify network calculations instead of relying solely on tools.
+
+The binary conversion section helped me better understand how IP addresses are represented at the machine level. Converting between decimal and binary improved my confidence in interpreting network structures more deeply.
+
+Additionally, writing basic Bash loops (for and while loops) helped reinforce how iteration works in scripting. Even simple loops demonstrated how automation can be used to repeat tasks efficiently, which is a key concept in system administration and networking workflows.
