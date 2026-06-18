@@ -166,3 +166,15 @@ The sticky bit (t) ensures that only the file owner or root user can delete or r
 
 <img width="1042" height="588" alt="image" src="https://github.com/user-attachments/assets/17093c11-a422-4a16-a8e8-6a2ed7b201d5" />
 
+
+# Lessons Learned
+
+Completing this lab on Linux user and group management strengthened my understanding of core system administration concepts and how they apply in real-world multi-user environments.
+
+I learned how to create and manage user accounts and groups, and how group membership controls access to shared resources. I also gained practical experience with Linux file permissions (rwx) and how they directly affect user access to files and directories.
+
+I developed an understanding of the importance of umask in defining default file permissions and how it helps enforce security policies automatically. Additionally, I observed how SGID (Set Group ID) ensures that files created within a shared directory inherit the directory’s group ownership, making collaboration more efficient.
+
+I learned how disabling SGID and modifying permissions can immediately restrict access, reinforcing the principle of least privilege. I also explored the sticky bit, which protects shared directories by preventing users from deleting files they do not own, even if they have write permissions.
+
+Overall, the lab demonstrated how Linux permission mechanisms work together to control access, improve collaboration, and maintain system security in multi-user environments.
