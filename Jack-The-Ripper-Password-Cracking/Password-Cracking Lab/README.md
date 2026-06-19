@@ -70,3 +70,7 @@ This lab demonstrates password crackig using John the Ripper in a Linux environm
 
 <img width="940" height="610" alt="image" src="https://github.com/user-attachments/assets/b44cf7fb-bc71-4c7e-af18-67c7597aae73" />
 
+# Lessons Learned
+
+This lab demonstrated how password hashes can be extracted and analyzed using password auditing tools. I learned that John the Ripper relies heavily on the quality of the wordlist and the complexity of the target passwords. Even when using a widely known wordlist such as rockyou.txt, passwords may remain uncracked if they are unique or sufficiently complex. I also learned how to prepare hash files and select the correct hash format when using John the Ripper. The extra credit exercise reinforced the importance of identifying hash types correctly before attempting to crack them. Additionally, the lab highlighted why strong passwords and secure password management practices are critical for protecting user accounts from dictionary-based attacks. Overall, this exercise provided practical experience with Linux user management, password hash extraction, and password auditing techniques commonly used in cybersecurity assessments.
+
