@@ -91,6 +91,6 @@ This lab focuses on basic Linux user and group management. It covers creating us
 
 <img width="1235" height="611" alt="image" src="https://github.com/user-attachments/assets/b1365270-fe3e-49e4-827c-6947c10d9b3f" />
 
-# Lesson Learned 
+# Lessons Learned 
 
 I learned that Linux stores user details in /etc/passwd and password hashes in /etc/shadow, both of which require elevated permissions to access. Creating users with useradd -m automatically generates a home directory, while usermod -s allows changing the user’s default shell and affects how they interact with the system. I also learned that group management commands like groupadd, groupmod, and groupdel directly impact file ownership and system permissions. Using -aG is important because it adds users to groups without removing existing memberships. Finally, I understood that deleting a group can leave files with orphaned group information, and that userdel -r properly removes both a user account and their home directory.
