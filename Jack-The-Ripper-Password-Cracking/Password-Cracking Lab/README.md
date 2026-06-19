@@ -3,7 +3,7 @@
 # Password Cracking Lab (John the Ripper)
 
 ## Overview
-This project demonstrates password crackig using John the Ripper in a Linux environment.
+This lab demonstrates password crackig using John the Ripper in a Linux environment.
 
 ## Tools used
   - Linux (Ubuntu/Kali)
